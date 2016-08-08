@@ -7,6 +7,48 @@
 
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/github-light.css">
+    <style type="text/css">
+    	p {
+    		color:#000;
+    	}
+
+    	strong {
+    		color:#000;
+    	}
+    	.icon {
+    		text-align: center;
+    	}
+    	.icon img {
+    		display:inline-block;
+    		width:200px;
+    		height: 200px;
+    		margin:0 auto;
+    	}
+    	.section {
+    		position: relative;
+    		width:100%;
+    		margin:20px auto;
+    		/*background: rgba(255, 0, 0, 0.2);*/
+    	}
+    	.section.work {
+    		height: 200px;
+    	}
+    	.section.intro {
+    		height: 480px;
+    	}
+/*    	.section .mask {
+    		position: absolute;
+    		top:0;
+    		left:0;
+    		width:100%;
+    		height:480px;
+    		background: rgba(8, 110, 213, 0.2);
+    	}*/
+    	.section .content {
+    		width:960px;
+    		margin:0 auto;
+    	}
+    </style>
     <meta name="viewport" content="width=device-width">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -14,27 +56,35 @@
   </head>
   <body>
     <div class="wrapper">
-      <!-- <header>
-        <h1>RoundTable</h1>
-        <p>美团金融前端团队</p>
+      <div class="section work">
+		<div class="content">
 
-        <p class="view"><a href="https://github.com/MT-RoundTable/homePage">View the Project on GitHub <small>MT-RoundTable/homePage</small></a></p>
+			<h3>我们正在做的</h3>
+			
+			<a href="https://github.com/MT-RoundTable/FE-Tips">FE-Tips</a>：每天一个前端Tip，包括但不限于：HTML、CSS、JavaScript、IOS、Android
 
+		</div>
+      </div>
+		
+      <div class="section intro">
+      	<!-- <div class="mask"></div> -->
+		<div class="content">
 
-      </header> -->
-      <section>
-        <p><img src="static/logo.png" alt="logo"></p>
+			<p><strong>所有的技术分享目的无非有二：对外输出、自身沉淀</strong></p>
 
-		<p><strong>所有的技术分享目的无非有二：对外输出、自身沉淀</strong></p>
+			<p>美团金融前端团队是一支年轻的团队，我们希望能在业务之余做一些技术分享，于内促进团队技术交流，于外希望能对业界同行有些许启发。</p>
 
-		<p>美团金融前端团队是一支年轻的团队，我们希望能在业务之余做一些技术分享，于内促进团队技术交流，于外希望能对业界同行有些许启发。</p>
+			<p>技术分享该以什么样的形式存在才能既保证分享的质量和可持续性，又能保证受众最大化吸收，一直是我们团队在摸索的问题，也许现在这种形式也不是最完善的。</p>
 
-		<p>技术分享该以什么样的形式存在才能既保证分享的质量和可持续性，又能保证受众最大化吸收，一直是我们团队在摸索的问题，也许现在这种形式也不是最完善的。</p>
+			<p>但 <strong>Done Is Better Than Perfect</strong>，我们一直在努力。</p>
 
-		<p>但 <strong>Done Is Better Than Perfect</strong>，我们一直在努力。</p>
-      </section>
+			<p class="icon"><img src="static/logo.jpg" /></p>
+
+		</div>
+      </div>
+
     </div>
     <script src="javascripts/scale.fix.js"></script>
-    
+
   </body>
 </html>
